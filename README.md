@@ -12,19 +12,19 @@
 
 #### Usage
 ##### Interactive Mode
-`
-$ ./console.py
-(hbnb) help
+	`
+	$ ./console.py
+	(hbnb) help
 
-Documented commands (type help <topic>):
-========================================
-EOF  help  quit
-
-(hbnb) 
-(hbnb) 
-(hbnb) quit
-$
-`
+	Documented commands (type help <topic>):
+	========================================
+	EOF  help  quit
+	
+	(hbnb) 
+	(hbnb) 
+	(hbnb) quit
+	$
+	`
 ##### Non-Interactive Mode
 `
 $ echo "help" | ./console.py
