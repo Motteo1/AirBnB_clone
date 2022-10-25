@@ -1,4 +1,5 @@
-# This file lists all the project contributors
-# See the 'hack/generate-authors.sh' file for more info
+# This file lists all the project contributors by name and email address
+# See the 'hack/generate-authors.sh' file for more info on generating it
 
+LeRoy-M <lmwasela@gmail.com>
 Motteo1 <timothykirungu@gmail.com>
