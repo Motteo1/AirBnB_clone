@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """This script contains the entry point of the command interpreter
 """
-import cmd
+import cmd, sys
 
 
 class HBNHCommand(cmd.Cmd):
@@ -13,9 +13,9 @@ class HBNHCommand(cmd.Cmd):
     
     prompt = '(hbnb) '
 
-    def EOF(self, arg):
+    def do_EOF(self, arg):
         """Quit command to exit the program"""
-        quit()
+        sys.exit()
 
     def do_quit(self, arg):
         """Termiates the console session"""
